@@ -3,3 +3,7 @@ Often times we have a need to export term sets and the terms (and their children
 Also, once the taxonomy terms / term sets are exported into an XML, they can be used to create the taxonomy terms in any other environment, ensuring the same GUIDs. This cannot be achieved through client side, since the taxonomy web service doesn't expose any method to create term sets, though, it offers methods to add/edit/delete terms. This can be achieved through server side code or through Power Shell. I have also provided the PS script, which uses the exported taxonomy XML to recreate the taxonomy term sets / terms in any other SP 2010 environment.
 
 Note: This utility relies on the Taxonomy columns (of type Managed Metadata) at the site level. So, it will export only those term sets which are connected to the site columns. If you want all the term sets within a particular term group (in a term store) to be exported, please ensure the taxonomy site columns are connected to all the term sets in that term group.
+
+Note: I have moved this from my actual project hosted (now archived) in CodePlex at:
+
+https://archive.codeplex.com/?p=termsetexporterclient
